@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #d5e1ef;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.card {
+  width: 320px;
+  height: 497px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  padding: 20px;
+}
+
+.image-box {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.description {
+  padding: 15px 25px;
+}
+
+.title {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  color: #7d889e;
+  font-size: 15px;
+}
